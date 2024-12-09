@@ -1,0 +1,60 @@
+# Logs
+
+node_modules/
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build output
+/dist/
+/build/
+/public/build/
+/public/static/
+/coverage/
+/.DS_Store
+
+# Cache files
+*.cache
+.cache/
+.npm/
+yarn.lock
+.pnpm-debug.log
+
+# IDE-specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Testing output
+/coverage/
+/jest/
+
+# MongoDB data
+*.lock
+data/
+dump/
+
+# React-specific
+
+build/
+.eslintcache
